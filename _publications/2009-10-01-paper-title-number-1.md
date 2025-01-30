@@ -1,14 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "Coupon Personalization: Leveraging Click Data with Deep Learning for Behavioral Insights"
 collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'This paper proposes a deep learning (DL) frame- work that leverages customer multidimensional click sequence data on e-commerce platforms to predict purchase probabilities and optimize personalized coupon issuance policy. Our study aims to bridge the gap in the existing literature that focuses only on page view and purchase data, thus overlooking the nuanced customer behaviors captured through actions such as adding products to carts and marking them as favorites. We construct a customer-product bipartite graph in the framework and apply heterogeneous Graph Neural Network (GNN) techniques to accommodate individual differences between customers and products. We employ the Hidden Markov Model (HMM) to unravel the latent psychological processes underlying customer purchasing decisions. The two matrices in HMM serve as an enhanced embedding to provide more accurate predictions (about 10% enhancement) with higher interpretability. Lastly, we employ the Bellman equation to formulate an optimal coupon issuance policy. We use click data of cosmetics and snacks on a particular e-commerce platform to demonstrate the interpretability of our model. Our findings indicate that HMM’s hidden transition matrix effectively reflects customer loyalty towards cosmetics and extensive browsing patterns in the snacks category. Furthermore, we observe that the revenue increase from each customer after coupon personalization is proportionate with the probabilities of different clicking actions implied by the HMM.'
+date: 2024-09-01
+venue: '2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)'
+slidesurl: 'http://ramiro-sun.github.io/files/CASE2024/Coupon_Personalization_Leveraging_Click_Data_with_Deep_Learning_for_Behavioral_Insights_slides.pdf'
+paperurl: 'http://ramiro-sun.github.io/files/CASE2024/Coupon_Personalization_Leveraging_Click_Data_with_Deep_Learning_for_Behavioral_Insights_paper.pdf'
+# citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+The contents above will be part of a list of publications, if the user clicks the link for the publication then the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
